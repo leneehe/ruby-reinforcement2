@@ -13,6 +13,8 @@ def grading_system(percentage)
     return "B-"
   elsif percentage > 60
     return "C"
+  elsif percentage > 55
+    return "D"
   elsif percentage > 50
     return "E"
   end
